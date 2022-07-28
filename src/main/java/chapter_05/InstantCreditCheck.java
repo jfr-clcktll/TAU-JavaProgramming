@@ -1,4 +1,4 @@
-package chapter5;
+package chapter_05;
 
 /*
 VARIABLE SCOPE

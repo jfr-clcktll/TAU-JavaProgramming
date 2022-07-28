@@ -1,8 +1,8 @@
-package chapter3;
+package chapter_03;
 
 import java.util.Scanner;
 
-public class LogicalOperatorLoanQualifier {
+public class LoanQualifier {
 
     public static void main(String[] args) {
 
@@ -21,8 +21,13 @@ public class LogicalOperatorLoanQualifier {
         scanner.close();
 
         //Make decision
-        if(salary >= requiredSalary && years >= requiredYearsEmployed) {
-            System.out.println("Congrats! You qualify for the loan");
+        if(salary >= requiredSalary) {
+            if (years >= requiredYearsEmployed) {
+                System.out.println("Congrats! You qualify for the loan");
+            }
+            else {
+                System.out.println("Sorry, you must have worked at your current job for " + requiredYearsEmployed + " years.");
+            }
         }
         else{
             System.out.println("Sorry, you must earn at least $"

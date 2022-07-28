@@ -1,4 +1,4 @@
-package chapter6;
+package chapter_06;
 
 /*
 -   Enhance the Phone bill exercise by redoing it in an object-oriented style

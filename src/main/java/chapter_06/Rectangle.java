@@ -1,4 +1,4 @@
-package chapter6;
+package chapter_06;
 
 public class Rectangle {
 

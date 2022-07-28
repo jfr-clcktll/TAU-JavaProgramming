@@ -1,4 +1,4 @@
-package chapter6;
+package chapter_06;
 
 /*
 Write a class that creates instances of the 'Rectangle' class to find the
