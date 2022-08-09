@@ -29,11 +29,12 @@ public class DayOfTheWeek {
     // Get input from user from 1-7
     public static int getDayFromUser(){
         int day;
+        Scanner scanner = new Scanner(System.in);
         do{
             System.out.println("Please Enter a number from 1-7");
-            Scanner scanner = new Scanner(System.in);
             day = scanner.nextInt();}
         while(day > 7 || day < 1 );
+        scanner.close();
 
         return day;
     }
