@@ -1,5 +1,6 @@
 # Project exclude paths
 /target/
+/.idea
 
 .idea/uiDesigner.xml
 .idea/vcs.xml
